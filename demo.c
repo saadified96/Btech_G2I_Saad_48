@@ -9,4 +9,15 @@ int main(){
     }else{
         printf("numbers are not equal");
     }
+    //question 7
+    printf("enter 3 numbers ");
+    int x,y,z;
+    scanf("%d,%d,%d",&x,&y,&z);
+    if(x>y && x>z){
+        printf("the greatest number is %d",x);
+    }else if(y>z && y>x){
+         printf("the greatest number is %d",y);
+    }else{
+         printf("the greatest number is %d",z);
+    }
 }
