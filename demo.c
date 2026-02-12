@@ -1,5 +1,12 @@
 #include <stdio.h>
-int main();
-int a=5;
-int b=6;
-printf(a+b);
+// question 6
+int main(){
+    int x,y;
+    x=6;
+    y=10;
+    if(x==y){
+        printf("numbers are equal");
+    }else{
+        printf("numbers are not equal");
+    }
+}
