@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 // question 6
 int main(){
     int x,y;
@@ -32,4 +33,14 @@ int main(){
         printf("entered year is not a leap year");
     }
     return 0;
+
+    //question 12
+    int n;
+    printf("enter the number to be added");
+    scanf(" %d", &n);
+    int sum=0;
+    for(int i=1;i<=n;i++){
+        sum+=i;
+    }
+    printf("sum is %d", sum);
 }
