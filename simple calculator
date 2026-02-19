@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main(){
+    char op;
+    double
+     result,a,b;
+    printf("simple calculator \n");
+    printf("enter the operator \n");
+    scanf("%c",&op);
+    printf("enter two numbers");
+    scanf("%lf %lf", &a, &b);
+    
+    switch (op){
+        case '+':
+            result=a+b;
+            printf("%lf",result);
+            break;
+        
+        case '-':
+            result=a-b;
+            printf("%lf",result);
+            break;
+
+        case '*':
+            result=a*b;
+            printf("%lf",result);
+            break;
+
+        case '/':
+            result=a/b;
+            printf("%lf",result);
+            break;
+
+            
+    }
+}
