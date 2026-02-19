@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int mani(){
+  printf("ax^2=bx=c=0");
+    int a,b,c;
+    double firstroot,secondroot;
+    printf("enter a b and c resp");
+    scanf(" %d %d %d", &a, &b, &c);
+    firstroot=(-b + sqrt(b * b - 4 * a * c)) / (2 * a);
+    secondroot=(-b - sqrt(b * b - 4 * a * c)) / (2 * a);
+    printf("Root 1: %.2lf\nRoot 2: %.2lf\n", firstroot, secondroot);
+    return 0;
+  }
