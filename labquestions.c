@@ -54,4 +54,18 @@ int main(){
 
     }
     printf("the factorial is %d", fact);
+    int n;
+    printf("enter the limit");
+    scanf(" %d", &n);
+    int evensum=0, oddsum=0;
+    for(int i=0;i<=n;i++){
+        if(i%2==0){
+            evensum+=i;
+
+        }else{
+            oddsum+=i;
+        }
+    }
+    printf("even sum is %d\n", evensum);
+    printf("oddsum is %d", oddsum);
 }
