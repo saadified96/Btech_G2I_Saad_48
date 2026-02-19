@@ -44,3 +44,14 @@ int main(){
     }
     printf("sum is %d", sum);
 }
+//question 13
+    int n;
+    printf("enter the factorial number");
+    scanf(" %d", &n);
+    int fact=1;
+    for(int i=n;i>=1;i--){
+        fact*=i;
+
+    }
+    printf("the factorial is %d", fact);
+}
